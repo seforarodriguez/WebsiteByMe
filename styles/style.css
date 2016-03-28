@@ -1,0 +1,29 @@
+html{
+	padding: 0;
+	margin: 0;
+	border: 0;
+  font:black;
+}
+.background{
+  background-image: url('images/lilly-background.png');
+  background-size: 100%;
+}
+
+nav {
+  display: block;
+}
+
+.b-content{
+  background-color: rgba(256, 200, 252, 0.9); 
+  background-size: 95%;
+  display: block;
+  z-index: 1;
+  padding: 5%;
+  padding-top: 20%;
+  margin-left: 10%;
+  margin-right: 10%;
+  font: black;
+  -webkit-mask-image: radial-gradient(circle 10px at 0 0, transparent 0, transparent 20px, black 21px);
+  -webkit-mask-image: radial-gradient(circle 10px at 0 1, transparent 0, transparent 20px, black 21px);
+  }
+
